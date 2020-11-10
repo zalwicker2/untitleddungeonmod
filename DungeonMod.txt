@@ -1,0 +1,27 @@
+Dungeon Mod
+
+REQUIRED
+- Blocks that are unbreakable until a floor (or dungeon) is beaten
+- Door that opens with a key
+- Chests with loot that gets better as you go down (chests get cooler textures as you go down too)
+- Bosses at the bottom of every floor
+- Unique items given from each boss
+-- Items include swords, shields, charms, utilities, etc.
+
+OPTIONAL
+- Custom mobs
+- Different themes for different biomes
+
+CODE PLANS
+--- Objects
+-- Dungeons
+- Stored as an array of floors
+- Constructor creates a new dungeon
+
+-- Floors
+- Stored as an array of rooms
+- Consists of a single level of the dungeon
+
+-- Room
+- Stores a 16x16 array of blocks
+- In beta will start as 0s and 1s for blocks vs no block, will eventually expand
